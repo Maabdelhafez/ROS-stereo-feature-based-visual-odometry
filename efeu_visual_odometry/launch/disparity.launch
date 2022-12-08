@@ -1,0 +1,22 @@
+<launch>
+
+
+<!-- The depth node -->
+<node name="depth" type="depth" pkg="efeu_visual_odometry"  output="screen">
+</node>
+
+<!-- The repubLeftCam node -->
+<node name="repubLeftCam" type="repubLeftCam" pkg="efeu_visual_odometry"  output="screen">
+</node>
+
+
+<!-- The repubRightCam node -->
+<node name="repubRightCam" type="repubRightCam" pkg="efeu_visual_odometry"  output="screen">
+</node>
+
+
+</launch>
+
+
+
+ 
