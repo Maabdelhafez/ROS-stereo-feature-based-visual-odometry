@@ -118,7 +118,13 @@ return a wrong match which may lead to a poor desparity and a poor depth estimat
 ![stereo_matching](https://user-images.githubusercontent.com/50604118/206458031-08a0233f-bd7c-4ee9-b6e1-ff7eeedec259.png)
 
 
+Results of the algorithm are outstanding specially in simulation using the KITTI dataset as shown in the following figure: 
+
+![seq_kitti](https://user-images.githubusercontent.com/50604118/206524424-a0dbfcd3-60ab-4dba-8611-fe8740b7c82b.png)
 
 
-Hope I have helped you understand the theory behind the algorithm and if you have any question, just shoot me an email me on ma [dot] abdelhafez [ät] gmail [dot] com. 
+As you can see those results are excellent especially that there is no motion optimization and the used KITTI sequences simulate a car motion of several kilometers! Just a final thought: you need to use the K matrix provided with the dataset and not the one resulting from your calibration.. pretty straightforward but just in case. 
+
+
+Hope I have helped you understand the main methodology behind the algorithm and if you have any question, just shoot me an email on:  ma [dot] abdelhafez [ät] gmail [dot] com. 
 
